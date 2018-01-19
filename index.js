@@ -21,10 +21,10 @@ function deepestChild() {
   var go = 1;
   
   while (go === 1) {
-    if (grandNodeList.child === undefined) {
+    if (grandNodeList.children === undefined) {
       go = 0;
     } else {
-      grandNodeList = grandNodeList.child;
+      grandNodeList = grandNodeList.children;
     }
   }
   
