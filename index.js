@@ -24,7 +24,7 @@ function deepestChild() {
     if (grandNodeList.children === undefined) {
       go = 0;
     } else {
-      grandNodeList = grandNodeList.children;
+      grandNodeList = grandNodeList.
     }
   }
   
