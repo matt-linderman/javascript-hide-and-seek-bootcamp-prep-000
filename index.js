@@ -21,7 +21,7 @@ function deepestChild() {
   var go = 1;
   
   while (go === 1) {
-    if (grandNodeList.querySelectorAll('div') === undefined) {
+    if (document.grandNodeList.querySelectorAll('div') === undefined) {
       go = 0;
     } else {
       grandNodeList = grandNodeList.querySelectorAll('div');
