@@ -25,4 +25,6 @@ function deepestChild() {
       grandNodeList = grandNodeList.child;
     }
   }
+  
+  return grandNodeList;
 }
